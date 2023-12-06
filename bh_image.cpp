@@ -124,10 +124,10 @@ int main() {
                                2.0 * metric.g_03 * Omega));
         output[i][j] = 1.0 / cube(std::abs(g));
         // output[i][j] = 1.0;
-        // std::cout << 1;
+        // std::cout << "11";
       } else {
         output[i][j] = 0.0;
-        // std::cout << 0;
+        // std::cout << "00";
       }
     }
     // std::cout << std::endl;
